@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+    line-height: 160%;
+}
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.16), 0 4px 10px rgba(0,0,0,0.23);
+}
+
+p {
+    line-height: 150%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #45a1ff;
+    height: fit-content;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@300;400;700&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Responsive Redesign</title>
+</head>
+
+<body>
+    <header class="header">
+    </header>
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-6">
+                <div class="card my-4">
+                    <img class="header-image" src="images/header.webp" alt="Rhode Island Historical Society">
+                </div>
+            </div>
+
+            <h1 class="my-3">Responsive Redesign: The Rhode Island Historical Society</h1>
+        </div>
+
+        <h2 class="my-4">Overview</h2>
+            <p>In the Responsive Redesign project, our goal is to analyze and identify flaws in an existing interface, redesign the website in order to improve user experience.</p>
+            <p>I chose to redesign <a href="https://www.rihs.org/" class="link-info">The Rhode Island Historical Society</a> website.</p>
+            <p>Founded in 1822, the RIHS is the fourth-oldest state historical society in the United States. The RIHS holds the largest and most important historical collections relating to Rhode Island and offers a variety of educational programs, including workshops, lectures, films, and walking tours of Providence.</p>
+
+        <h2 class="my-4">Part 1: Identifying Usability Problems</h2>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8">
+                    <div class="card my-4 ">
+                        <img class="header-image" src="images/Screenshot-Website.jpg" alt="Screenshot of The Rhode Island Historical Society Homepage">
+                    </div>
+                </div>
+            </div>
+
+            <h5>Finding Problems</h5>
+            <ul>
+                <li>Lack of Consistency</li>
+                <p>Currently, there are too many different fonts. Besides, the font sizes and the line spacing are not consistent. We need to keep the number of fonts used at a minimum and make the font sizes and spacing between lines consistent through the entire page.</p>
+                <li>Redundancy</li>
+                <p>Although repetition can bring more attention but sometimes also make it look redundant. For example: Donate buttons are put in 3 different places in the single page. Personally speaking, it can be placed at the top menu with a conspicuous color, that would be enough to draw people's attention. </p>
+                <li>Content Organization</li>
+                <p>The content are not aligned will and the image at the top seems kind of out of the place. </p>
+            </ul>
+
+            <h5>Accessibility</h5>
+            <p>By using <a href="https://wave.webaim.org/" class="link-info">WebAIM WAVE</a>, we are able to detect possible accessibility problems. From the results, I think the developers have made some efforts for the accessibility, however, there are still something that can be further improved.</p>
+            <ul>
+                <li>Most of the images don't have alternative text</li>
+                <p>It's better to add alt text to the image in case the image fails to load on a user's screen. This text can also help screen-reading tools describe images to visually impaired readers.</p>
+                <li>Contrast errors</li>
+                <p>Low contrast text is bad for usability. Insufficient contrast between the text color and the background degrades the user experience.</p>
+                <li>Redundant link</li>
+                <p>Redundant hyperlinks are a common accessibility issue. Since redundant links are frustrating for users, the best practice is to fix it by combining both elements in the same hyperlink. </p>
+            </ul>
+
+        <h2 class="my-4">Part 2: Visual Redesign</h2>
+            <h5>Low-fidelity Wireframing: Balsamiq </h5>
+            <div class="row justify-content-center text-center">
+                <!-- <p class="my-4">Desktop</p> -->
+                <div class="col-md-11">
+                    <div class="card my-4">
+                        <img class="highfi-image" src="images/Lowfi-annotation.png" alt="Lowfi prototype with annotation">
+                    </div>
+                </div>
+                <!-- <p class="my-4">Tablet</p>
+                <div class="col-md-8">
+                    <div class="card my-2">
+                        <img class="highfi-image" src="images/ipad.png" alt="High-Fi prototype for tablet">
+                    </div>
+                </div>
+                <p class="my-4">Phone</p>
+                <div class="col-md-6">
+                    <div class="card my-2">
+                        <img class="highfi-image" src="images/Mobile.png" alt="High-Fi prototype for phone">
+                    </div>
+                </div> -->
+            </div>
+
+            <h5 class="my-4">Visual Design Style Guide</h5>
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <div class="card my-4">
+                        <img class="header-image" src="images/UI Style Guide.png" alt="UI Style Guide">
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="my-2">High-Fidelity Prototyping: Figma</h5>
+            <div class="row justify-content-center text-center">
+                <p class="my-4">Desktop</p>
+                <div class="col-md-10">
+                    <div class="card my-2">
+                        <img class="highfi-image" src="images/Desktop.png" alt="High-Fi prototype for desktop">
+                    </div>
+                </div>
+                <p class="my-4">Tablet</p>
+                <div class="col-md-8">
+                    <div class="card my-2">
+                        <img class="highfi-image" src="images/ipad.png" alt="High-Fi prototype for tablet">
+                    </div>
+                </div>
+                <p class="my-4">Phone</p>
+                <div class="col-md-6">
+                    <div class="card my-2">
+                        <img class="highfi-image" src="images/Mobile.png" alt="High-Fi prototype for phone">
+                    </div>
+                </div>
+            </div>
+
+        <h3 class="my-4">Part 3: Responsive Redesign</h3>
+            <p>After prototyping, I build the <a href="https://sleepycat678.github.io/Responsive-Redesign/" class="link-info">new responsive website</a> using HTML & CSS(with <a href="https://getbootstrap.com/" class="link-info">bootstrap</a>).</p>
+            <a href="https://sleepycat678.github.io/Responsive-Redesign/" class="btn btn-outline-success my-3" id="ResponsiveWebsite">Responsive Website</a>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <h4>csci 1300</h4>
+        </div>
+    </div>
+</body>
+    
+</html>
